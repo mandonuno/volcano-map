@@ -33,7 +33,7 @@ def elevation_color(elevation):
 
 
 map = folium.Map(location=[34.501954, -40.963814],
-                 zoom_start=2, tiles="Mapbox Bright")
+                 zoom_start=2, tiles="Stamen Terrain")
 
 fg = folium.FeatureGroup(name="Volcanoe Map")
 
